@@ -74,7 +74,7 @@ class Life:
         - Padding is used around the grid to simplify boundary condition handling.
         - The count of live neighbors is calculated for each cell, and the rules of Conway's Game of Life are applied:
             * A live cell with 2 or 3 neighbors survives.
-            * A dead cell with exactly 3 neighbors becomes a live cell.
+             * A dead cell with exactly 3 neighbors becomes a live cell.
             * All other cells either die or remain dead.
         """
         for i in range(n):
@@ -96,3 +96,9 @@ class Life:
                 prev = curr
             # Update the last row after loop ends
             self.grid[y+1] = curr
+            
+
+
+    def export_matrix (self, grid):
+        
+        
