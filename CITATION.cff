@@ -1,0 +1,18 @@
+# YAML 1.2
+---
+cff-version: "1.2.0"
+title: "life"
+authors:
+  - family-names: Hanif
+    given-names: Ahmed
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+date-released: 2024-09-26
+version: "0.1.0"
+repository-code: "https://github.com/ahmed991/life"
+keywords:
+  - "python"
+  - "optimization"
+  - "oop"
+  - "life"
+  - "array"
+message: "If you use this software, please cite it using these metadata."
