@@ -25,7 +25,7 @@ The project setup is documented in [project_setup.md](project_setup.md). Feel fr
 To install life from GitHub repository, do:
 
 ```console
-https://github.com/ahmed991/conway-life.git
+git clone https://github.com/ahmed991/conway-life.git
 cd life
 python -m pip install .
 ```
