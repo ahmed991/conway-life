@@ -13,7 +13,6 @@ eggs/
 .eggs/
 lib/
 lib64/
-test_dataset/
 parts/
 sdist/
 var/
